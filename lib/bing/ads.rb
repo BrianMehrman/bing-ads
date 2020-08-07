@@ -16,6 +16,11 @@ require 'bing/ads/api/v12'
 require 'bing/ads/api/v12/constants'
 require 'bing/ads/api/v12/data'
 require 'bing/ads/api/v12/services'
+require 'bing/ads/api/v13'
+require 'bing/ads/api/v13/constants'
+require 'bing/ads/api/v13/data'
+require 'bing/ads/api/v13/services'
+
 
 require 'bing/ads/utils'
 require 'bing/ads/version'
