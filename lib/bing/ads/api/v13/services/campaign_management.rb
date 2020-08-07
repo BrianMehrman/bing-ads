@@ -11,6 +11,7 @@ module Bing
               super(options)
             end
 
+            # see: https://docs.microsoft.com/en-us/advertising/campaign-management-service/getcampaignsbyaccountid?view=bingads-13
             def get_campaigns_by_account_id(account_id=nil, campaign_type=default_campaign_types)
               account_id ||= @account_id
               response = call(:get_campaigns_by_account_id, account_id: account_id, campaign_type: campaign_type)
